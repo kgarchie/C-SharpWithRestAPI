@@ -1,0 +1,8 @@
+﻿POST http://localhost:5000/transactions/buy-airtime
+Content-Type: application/json
+
+{
+  "toUser": "user",
+  "fromUser": "user",
+  "amount": 3
+}
